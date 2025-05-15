@@ -7,6 +7,11 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "androidNavigationBar": {
+      "visible": "immersive",
+      "barStyle": "light-content",
+      "backgroundColor": "#00000000"
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -24,6 +29,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c2fbb852-eeaf-4537-bdb9-45b3795aa694"
+      }
     }
   }
 }
